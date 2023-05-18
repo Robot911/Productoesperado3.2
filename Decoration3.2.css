@@ -1,0 +1,86 @@
+header{
+	margin: 20px auto;
+	padding: 15px;
+	width: 800px;
+    border-radius: 5px 20px 15px 40px;
+	color: white;
+	text-align: center;
+	background: -webkit-radial-gradient(center, ellipse, #CD0C98, #6B0C85);
+	box-shadow: #006 4px 4px 4px 4px;
+	-webkit-transform: rotate(360deg);
+    -webkit-transition: -webkit-transform 1s ease 0.5s;
+}
+header:hover{
+     -webkit-transform: rotate(5deg);
+	}
+
+
+nav{
+	padding: 10px 10px; left: 5px;
+	background-color: #3DDCDE;
+	color: white;
+}
+
+li{
+	color: white;
+    width: 50px;
+    margin: 15px 15px auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: #585462 3px 3px 3px 3px;
+    display: inline;
+    padding: 10px;
+}
+li:hover{
+	background-color: #041FB4;
+
+}
+
+aside{
+	text-align: center;
+	float: left; 
+	height: 960px;
+	width: 160px;
+	background-color: #FAFC3E; color: #3DDE75; 
+}
+
+section{
+	padding-top: 15px; padding-left: 15px;
+	margin-left: 180px;
+	background-color: #EE3EFC;
+	color: white
+}
+
+footer{
+	margin: 20px;
+	padding: 10px 15px;
+	clear: both;
+	background-color: #58FC3E;
+	color: blue;
+	text-align: center;
+}
+
+p[name^="mistexto1"]{color: blue;
+             font-size: 17px;
+         }
+
+p[name$="texto1vas"]{
+	color: pink;
+	font-size: 20px;
+}
+p[name*="textoresgdrg1"]{
+	color: red;
+	font-size: 22px;
+}
+
+p:nth-child(6){
+	color: orange;
+}
+
+p:last-child{
+	background-color: blue;
+	color: white;
+}
+
+p:firs-child{
+	color: blue;
+}
